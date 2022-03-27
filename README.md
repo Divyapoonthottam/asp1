@@ -13,7 +13,7 @@ On your local machine, do the following.
 * Clone this repository using the command `git clone https://github.com/Divyapoonthottam/asp1.git`
 * Run python_server.py in a console window using the command `python3 python_server.py`. This will run a Python web server with 2 end points - `/check-txt-record` and `/find-meta-tag-with-name`
 * Open another console window and run test_meta_tag.py using the command `python3 test_meta_tag.py`. Enter url, metatag-name and the response from the server endpoint `/find-meta-tag-with-name` will be printed as output.
-* In the second console window, run test_dns_record.py using the command `python3 test_meta_tag.py`. Enter domain-name, dns-txt-record and the response from the server endpoint `/check-txt-record` will be printed as output.
+* In the second console window, run test_dns_record.py using the command `python3 test_dns_record.py`. Enter domain-name, dns-txt-record and the response from the server endpoint `/check-txt-record` will be printed as output.
 
 ## Implementation details
 
@@ -27,6 +27,6 @@ On your local machine, do the following.
   * This API utilizes the functionality implemented in `dns_utility.py`
   * Utilizing the `dns.resolver()` functionality available in dnsresolve library, this finds all TXT records for a domain name. Given txt-record is compared with the collected domain dns-text-records.
 
-### Tests :Clients for interfacing with the web server
+### Tests : Clients for interfacing with the web server
 * Two test files are added for checking the response of endpoints
 * This project is solely concentrating on the backend development of a python web server.
