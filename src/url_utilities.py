@@ -1,5 +1,3 @@
-from unicodedata import name
-from urllib import response
 from bs4 import BeautifulSoup
 import requests
 
@@ -23,5 +21,3 @@ def search_for_meta_tags_in_url(url,meta_tag_name):
     named_meta_tags=get_meta_tags_in_html(html_content)
     if meta_tag_name in named_meta_tags:
         return named_meta_tags[meta_tag_name]
-
-       

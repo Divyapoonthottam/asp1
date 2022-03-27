@@ -1,8 +1,9 @@
 import flask
 import url_utilities
 import domain_utilities
-import json
+
 app=flask.Flask("my-python-server")
+
 @app.route("/")
 def title():
     return "<html><head><title>Divya's Project</title></head><body><h1>my server </body></html>"
@@ -48,8 +49,6 @@ def check_txt_record_for_url():
             "dns-txt-record": txt_record
         }
         return flask.make_response(api_response, 200)
-
-
 
 if __name__=="__main__":
     app.run(host = "0.0.0.0", port = 8080)
