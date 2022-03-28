@@ -30,3 +30,11 @@ On your local machine, do the following.
 ### Tests : Clients for interfacing with the web server
 * Two test files are added for checking the response of endpoints
 * This project is solely concentrating on the backend development of a python web server.
+
+### Sample screenshots from execution
+#### Python Server
+![Python Server](images/server-side-console.png?raw=true "Python Server")
+#### Test client for DNS TXT Record
+![Test client for DNS TXT Record](images/test-dns-record.png?raw=true "Test client for DNS TXT Record")
+#### Test client for Meta tag
+![Test client for Meta tag](images/test-meta-tag.png?raw=true "Test client for Meta tag")
